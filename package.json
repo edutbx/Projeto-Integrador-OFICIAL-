@@ -1,0 +1,28 @@
+{
+  "name": "projeto-integrador",
+  "version": "1.0.0",
+  "description": "uma plataforma web voltada exclusivamente para profissionais de saúde, oferecendo acesso centralizado e seguro a prontuários médicos e informações de pacientes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edutbx/Projeto-Integrador-OFICIAL.git"
+  },
+  "author": "Matheus Silva Ciriaco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edutbx/Projeto-Integrador-OFICIAL/issues"
+  },
+  "homepage": "https://github.com/edutbx/Projeto-Integrador-OFICIAL#readme",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
